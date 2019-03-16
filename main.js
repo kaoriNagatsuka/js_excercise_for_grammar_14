@@ -7,8 +7,8 @@
 //   - height: 身長
 //   - weight: 体重
 // - インスタンスごとの固有の情報はコンストラクタ経由でセットする
-class Person{
-    constructor(name, age, gender, height, weight){
+class Person {
+    constructor(name, age, gender, height, weight) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -22,8 +22,8 @@ class Person{
 const me = new Person('KAORI', 23, '女', 176, 68);
 
 // 課題3: 課題2で生成したインスタンスの情報をconsole.logを使って、「名前」「年齢」「性別」「身長」「体重」が正しくセットされていることを確認する
-console.log('me.nameはKAORIであるべき :',me.name);
+console.log('me.nameはKAORIであるべき :', me.name);
 console.log('me.ageは29であるべき :', me.age);
-console.log('me.genderは男であるべき :', me.gender);
-console.log('me.heightは176であるべき :',me.height);
-console.log('me.weightは68であるべき :',me.weight);
+console.log('me.genderは女であるべき :', me.gender);
+console.log('me.heightは176であるべき :', me.height);
+console.log('me.weightは68であるべき :', me.weight);
